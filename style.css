@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;  
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.heart{
+height: 80px;
+width: 80px;
+background: red;
+position: relative;
+transform: rotate(-45deg);
+box-shadow: -10px 10px 50px red;
+animation: heart 1s linear infinite;
+}
+
+.heart:before{
+content: "";
+height: 80px;
+width: 80px;
+background: rgb(254, 2, 2);
+top: -50%;
+position: absolute;
+border-radius: 50%;
+}
+
+.heart:after{
+    content: "";
+    height: 80px;
+    width: 80px;
+    background: rgb(255, 2, 2);
+    right: -50%;
+    position: absolute;
+    border-radius: 50%;
+    }
+@keyframes heart{
+    0%{ transform: scale(1.1) rotate(-45deg) ;}
+    60%{ transform: scale(.9) rotate(-45deg) ;}
+    100%{ transform: scale(1.1) rotate(-45deg) ;}
+}
+
+.love{
+    display: flex;
+}
+.i, .you,.BUBU{
+    min-width: 60px;
+    margin-left: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(130, 24, 24);
+}
+
+.heart1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: heartAll 5s linear infinite; 
+}
+
+@keyframes heartAll{
+    0%{ transform: scale(.1) rotate(-45deg) ;}
+    60%{ transform: scale(.2) rotate(-45deg) ;}
+    100%{ transform: scale(.1) rotate(-45deg) ;}
+}
+
+.heart2{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart3{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart4{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart5{
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart6{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart7{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart8{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart9{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    animation: heartAll 5s linear infinite; 
+}
+
+.heart10{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    animation: heartAll 5s linear infinite; 
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.dot1{
+    top: 5%;
+    left: 5%;
+}
+.dot2{
+    top: 10%;
+    left: 30%;
+}
+.dot3{
+    top: 50%;
+    left: 85%;
+}
+.dot4{
+    top: 60%;
+    left: 25%;
+}
+.dot5{
+    top: 70%; 
+    left: 5%;
+}
+.dot6{
+    top: 80%;
+    left: 60%;
+}
+.dot7{
+    top: 94%;
+    left: 65%;
+}
+.dot8{
+    top: 40%;
+    left: 75%;
+}
+.dot9{
+    top: 10%;
+    left: 65%;
+}
+.dot10{
+    top: 30%;
+    left: 5%;
+}
+.dot11{
+    top:25%;
+    left: 75%;
+}
+.dot12{
+    top: 60%;
+    left: 65%;
+}
+
